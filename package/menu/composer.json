@@ -1,0 +1,31 @@
+{
+    "name": "zayed/laravel-menus",
+    "description": "Laravel Menu management",
+    "keywords": [
+      "laravel",
+      "menus",
+      "navigation",
+      "nav",
+      "bootstrap"
+    ],
+    "extra": {
+        "laravel": {
+          "providers": [
+            "Zayed\\Menus\\MenusServiceProvider"
+          ],
+          "aliases": {
+            "Menu": "Zayed\\Menus\\Facades\\Menu"
+          }
+        }
+      },
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mostafa Zayed",
+            "email": "mosatafa.zayed9990@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
